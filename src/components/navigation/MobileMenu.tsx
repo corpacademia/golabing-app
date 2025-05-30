@@ -8,10 +8,9 @@ interface MobileMenuProps {
   isOpen: boolean;
   onClose: () => void;
   items: NavItem[];
-  onContactClick: () => void;
 }
 
-const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, items, onContactClick }) => {
+const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, items }) => {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -58,19 +57,23 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, items, onConta
                 ))}
               </div>
 
-              {/* CTA Button */}
-              <motion.button
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                onClick={() => {
-                  onClose();
-                  onContactClick();
-                }}
-                className="w-full mt-8 px-6 py-3 bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-medium rounded-lg hover:from-primary-700 hover:to-secondary-700 transition-all duration-300"
-              >
-                Get Started
-              </motion.button>
+              {/* Auth Buttons */}
+              <div className="mt-8 space-y-4">
+                <a
+                  href="https://app.golabing.ai/login"
+                  className="block w-full px-6 py-3 text-center text-white font-medium hover:text-primary-400 transition-colors duration-300"
+                  onClick={onClose}
+                >
+                  Login
+                </a>
+                <a
+                  href="https://app.golabing.ai/signup"
+                  className="block w-full px-6 py-3 text-center bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-medium rounded-lg hover:from-primary-700 hover:to-secondary-700 transition-all duration-300 whitespace-nowrap"
+                  onClick={onClose}
+                >
+                  Sign Up
+                </a>
+              </div>
             </nav>
           </motion.div>
         </>

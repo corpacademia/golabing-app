@@ -57,14 +57,20 @@ const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:flex md:items-center">
-            <button
-              onClick={onContactClick}
-              className="ml-8 px-6 py-2 bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-medium rounded-lg hover:from-primary-700 hover:to-secondary-700 transition-all duration-300"
+          {/* Auth Buttons */}
+          <div className="hidden md:flex md:items-center md:space-x-4">
+            <a
+              href="https://app.golabing.ai/login"
+              className="px-6 py-2 text-white font-medium hover:text-primary-400 transition-colors duration-300"
             >
-              Get Started
-            </button>
+              Login
+            </a>
+            <a
+              href="https://app.golabing.ai/signup"
+              className="whitespace-nowrap px-6 py-2 bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-medium rounded-lg hover:from-primary-700 hover:to-secondary-700 transition-all duration-300"
+            >
+              Sign Up
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -82,7 +88,6 @@ const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
         isOpen={isMobileMenuOpen}
         onClose={() => setIsMobileMenuOpen(false)}
         items={navigation}
-        onContactClick={onContactClick}
       />
     </header>
   );
