@@ -8,8 +8,12 @@ export default defineConfig({
   },
   base: '/',
   server: {
-    host: true,
-    port: 5173,
+    host: '0.0.0.0',
+    port: 5000,
+    hmr: {
+      clientPort: 443,
+      protocol: 'wss',
+    },
   },
   build: {
     outDir: 'dist',
