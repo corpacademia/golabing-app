@@ -158,15 +158,6 @@ const Footer: React.FC<FooterProps> = ({ onContactClick }) => {
               >
                 Techute Pvt Ltd
               </a>
-              <span className="text-gray-400 mx-2">|</span>
-              <div className="flex items-center space-x-2">
-                <img
-                  src="https://zeevector.com/wp-content/uploads/2021/02/Make-in-India-Logo-PNG-HD.png"
-                  alt="Make in India"
-                  className="h-6 w-auto"
-                />
-                <span className="text-gray-400">Initiative</span>
-              </div>
             </div>
           </div>
         </div>
