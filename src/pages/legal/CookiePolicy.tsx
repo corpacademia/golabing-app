@@ -58,7 +58,7 @@ const CookiePolicy = () => {
             <div className="text-gray-300">
               <p>If you have questions about our Cookie Policy, please contact us at:</p>
               <p className="mt-2">Email: hello@golabing.ai</p>
-              <p className="mt-2">GoLabing.ai is a product of CorpAcademia iTechnovations Pvt Ltd</p>
+              <p className="mt-2">GoLabing.ai is a product of Techute Pvt Ltd</p>
             </div>
           </section>
         </div>

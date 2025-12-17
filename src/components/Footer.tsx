@@ -151,12 +151,12 @@ const Footer: React.FC<FooterProps> = ({ onContactClick }) => {
             <div className="flex items-center space-x-2">
               <span className="text-gray-400">Developed by</span>
               <a 
-                href="https://corpacademia.com" 
+                href="https://techute.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary-400 hover:text-primary-300 transition-colors duration-300"
               >
-                CorpAcademia iTechnovations Pvt. Ltd.
+                Techute Pvt Ltd
               </a>
               <span className="text-gray-400 mx-2">|</span>
               <div className="flex items-center space-x-2">

@@ -62,7 +62,7 @@ const Partners = () => {
             </span>
           </h1>
           <p className="mt-4 text-xl text-gray-400">
-            Join CorpAcademia iTechnovations Pvt Ltd's ecosystem of technology and training partners for GoLabing.ai
+            Join Techute Pvt Ltd's ecosystem of technology and training partners for GoLabing.ai
           </p>
         </div>
 

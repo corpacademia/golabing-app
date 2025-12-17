@@ -43,6 +43,9 @@ GoLabing.ai is a frontend web application for an AI-powered hands-on lab platfor
 - External authentication links to app.golabing.ai
 
 ## Recent Changes
+- *2025-12-17*: Updated company name
+  - Changed company name from "CorpAcademia iTechnovations Pvt Ltd" to "Techute Pvt Ltd" throughout all pages
+  - Updated footer, About Us, Partners, Careers, and all legal pages (Privacy Policy, Terms of Service, Cookie Policy)
 - *2025-10-15*: Initial Replit setup
   - Configured Vite for Replit environment (port 5000, host 0.0.0.0)
   - Set up development workflow

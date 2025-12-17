@@ -48,7 +48,7 @@ const AboutUs = () => {
             </span>
           </h1>
           <p className="mt-4 text-xl text-gray-400 max-w-3xl mx-auto">
-            At GoLabing.ai, a product of CorpAcademia iTechnovations Pvt Ltd, we're transforming the landscape of IT education through innovative, AI-powered hands-on learning experiences.
+            At GoLabing.ai, a product of Techute Pvt Ltd, we're transforming the landscape of IT education through innovative, AI-powered hands-on learning experiences.
           </p>
         </div>
 
@@ -113,7 +113,7 @@ const AboutUs = () => {
           <h2 className="text-3xl font-bold text-white mb-4">Get in Touch</h2>
           <p className="text-gray-300 mb-2">Email: hello@golabing.ai</p>
           <p className="text-gray-300">
-            GoLabing.ai is a product of CorpAcademia iTechnovations Pvt Ltd
+            GoLabing.ai is a product of Techute Pvt Ltd
           </p>
         </div>
       </div>

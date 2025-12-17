@@ -42,7 +42,7 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-bold text-white mb-4">5. Intellectual Property</h2>
             <p>
-              All content and materials available on GoLabing.ai are the property of CorpAcademia iTechnovations Pvt Ltd 
+              All content and materials available on GoLabing.ai are the property of Techute Pvt Ltd 
               and are protected by applicable copyright and trademark law.
             </p>
           </section>
@@ -68,7 +68,7 @@ const TermsOfService = () => {
             <div className="text-gray-300">
               <p>For questions about these Terms, please contact us at:</p>
               <p className="mt-2">Email: hello@golabing.ai</p>
-              <p className="mt-2">GoLabing.ai is a product of CorpAcademia iTechnovations Pvt Ltd</p>
+              <p className="mt-2">GoLabing.ai is a product of Techute Pvt Ltd</p>
             </div>
           </section>
         </div>

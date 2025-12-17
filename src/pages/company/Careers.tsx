@@ -63,7 +63,7 @@ const Careers = () => {
             </span>
           </h1>
           <p className="mt-4 text-xl text-gray-400">
-            Be part of CorpAcademia iTechnovations Pvt Ltd's team that's revolutionizing IT education through GoLabing.ai
+            Be part of Techute Pvt Ltd's team that's revolutionizing IT education through GoLabing.ai
           </p>
         </div>
 
